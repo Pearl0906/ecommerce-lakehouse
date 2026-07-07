@@ -4,7 +4,6 @@ SELECT DISTINCT
     product_name,
     category,
     brand,
-    price,
-    stock_quantity
-FROM bronze_products
+    price
+FROM `e-commerce`.ecommerce.bronze_products
 WHERE product_id IS NOT NULL;

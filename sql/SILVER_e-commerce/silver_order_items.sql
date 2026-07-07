@@ -6,6 +6,6 @@ SELECT
     order_id,
     product_id,
     quantity,
-    unit_price
-FROM bronze_order_items
+    item_price
+FROM `e-commerce`.ecommerce.bronze_order_items
 WHERE order_item_id IS NOT NULL;

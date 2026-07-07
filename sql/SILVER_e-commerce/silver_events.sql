@@ -6,4 +6,4 @@ SELECT
     event_type,
     product_id,
     event_timestamp
-FROM bronze_events;
+FROM `e-commerce`.ecommerce.bronze_events;
