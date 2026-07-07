@@ -25,3 +25,8 @@ venv/
 
 # Ignore raw data
 data/raw/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
